@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: minmax(350px, auto);
+  gap: calc(80px / 1);
+}
+
+.discount {
+  font-weight: normal;
+  color: #777;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+.templateContainer {
+  margin-left: 20px;
+}
+.inputsearch {
+  margin: 20px;
+  margin-left: 5%;
+  font-family: Nunito;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: #cc9e58;
+  width: 20%;
+}
+@media (max-width:750px) {
+  .inputsearch{
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .form-floating{
+    width: 300px;
+  }
+
+  
+}

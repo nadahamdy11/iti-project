@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: minmax(350px, auto);
+    gap: calc(80px / 3);
+}
+
+.discount {
+    font-weight: normal;
+    color: #777;
+    text-decoration: line-through;
+    margin-left: 10px;
+}

@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #f1e5c5;
+}
+
+.imgs a.active {
+    border: 3px solid var(--yellow);
+    width: 1000px;
+}
