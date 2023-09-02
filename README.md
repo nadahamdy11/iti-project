@@ -1,5 +1,20 @@
 # Getting Started with Create React App
 
+-Sign up page and Log in page
+(log in system +Validation function +react-toast library +Json server)
+-cart page( table Fetching data from json server)
+-Furniture page with Search button
+-CRUD operation(page details)
+ pages for Adding and Updating Data using json file ,applying validations
+edit page
+-context api
+-Dark mode button and handling in Navbar
+-page not found
+-contact us page
+-responsive full website
+-Routing Was Used
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
